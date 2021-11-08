@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-
 <head>
 <title>Brazilië</title>
 </head>
@@ -10,7 +9,30 @@
  	 background-color: rgb(112, 245, 175);
  	 background-position: center;
  	 background-size: cover;
+     background-border: 8 px solid-white;
  }
+ ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+li a {
+  display: inline;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li {
+  float: left;
+}
+
+
+li a:hover {
+  background-color: #111;
+}
  img  { 
  	border: 8px solid white;
  }
@@ -23,6 +45,14 @@
 </style>
 
 <body>
+
+<ul>
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="#geografie">geografie</a></li>
+  <li><a href="#eten">eten</a></li>
+  <li><a href="#bevolking">bevolking</a></li>
+  <li><a href="toerisme">toerisme</a></li>
+</ul>
 <h1 style="color:black;">Brazilië</h1>
 
 <p>Op deze site leer je wat meer over Brazilië.</p>
@@ -32,3 +62,4 @@
 
 </body>
 </html>
+
