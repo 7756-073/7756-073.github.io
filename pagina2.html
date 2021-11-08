@@ -1,6 +1,16 @@
 <!DOCTYPE html>
 <html>
 <head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+function appendText() {
+  var txt1 = "<p>Canjica</p>";        // Create text with HTML
+  var txt2 = $("<p></p>").text("Feijoada");  // Create text with jQuery
+  var txt3 = document.createElement("p");
+  txt3.innerHTML = "Coxinhas";         // Create text with DOM
+  $("body").append(txt1, txt2, txt3);   // Append new elements
+}
+</script>
 <title>Eten</title>
 </head>
 <style>
@@ -8,6 +18,7 @@ body {text-align: center;
 	 background-color: #CCFFCC;
  	 background-position: center;
  	 background-size: cover;
+     font-family: "Brush Script MT", cursive;
      }
 img {
   margin: 40px 0px 0px 0px;
@@ -19,6 +30,8 @@ img {
    padding: 40px;
     font-size: 20px;
    text-align: center;
+   position: relative;
+    font-family: "Brush Script MT", cursive;
   }
  
 </style>
@@ -61,6 +74,10 @@ Als je een paar keer in Brazilië bent geweest dan kom je er achter dat eten een
 Ze zijn gemakkelijk en snel te maken. De broodjes staan er bekend om dat ze altijd lekker smeuïg smaken van binnen.</p>
 <img src="https://i0.wp.com/www.mijnbrazilie.nl/wp-content/uploads/2020/12/Mijnbrazilie-Brazilie-Braziliaanse-recepten-Pao-de-queijo-in-een-mandje.jpg?w=1200&ssl=1">
 </div>
+
+
+<p>klik op de onderstaande knop om de namen van nog meer Braziliaanse gerechten te weten.</p>
+<button onclick="appendText()">Meer gerechten</button>
 
 
 
