@@ -13,6 +13,13 @@ body{
     
      
 }
+.hoi {
+	display: block;
+   background: white;
+    border: 5px solid black;
+    text-align: left;
+    
+}
 ul {
   list-style-type: none;
   margin: 0;
@@ -27,7 +34,7 @@ li a {
   padding: 14px 16px;
   text-decoration: none;
 }
-li {
+.menu_li {
   float: left;
 }
 
@@ -51,11 +58,11 @@ li a:hover {
 
 <body>
 <ul>
-  <li><a class="active" href="index.html">Home</a></li>
-  <li><a href="pagina1.html">Geografie</a></li>
-  <li><a href="pagina2.html">Eten</a></li>
-  <li><a href="#pagina3.html">Bevolking</a></li>
-  <li><a href="pagina4.html">Toerisme</a></li>
+  <li class = "menu_li"><a class="active" href="index.html">Home</a></li>
+  <li class = "menu_li"><a href="pagina1.html">Geografie</a></li>
+  <li class = "menu_li"><a href="pagina2.html">Eten</a></li>
+  <li class = "menu_li"><a href="#pagina3.html">Bevolking</a></li>
+  <li class = "menu_li"><a href="pagina4.html">Toerisme</a></li>
 </ul>
 
 <h1>Geografie</h1>
@@ -70,7 +77,7 @@ Zuidoosten: Atlantisch regenwoud, droog en dor (noorden), Cerrado savanne, diver
 Zuiden: Iguaçu Falls, Atlantisch regenwoud (Mata Atlântica), pampa's (open grasland), canyons, landbouw, wijngebied.</p>
 
 <h3>Lijst van landen die grenzen aan Brazilië<h3>
-<ol>
+<ol class="hoi">
   <li>Argentinië</li>
   <li>Paraguay</li>
   <li>Uruguay</li>
@@ -88,3 +95,4 @@ Zuiden: Iguaçu Falls, Atlantisch regenwoud (Mata Atlântica), pampa's (open gra
 
 
 </body>
+</html>
