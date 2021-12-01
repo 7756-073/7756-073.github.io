@@ -36,6 +36,10 @@ ol {
   text-align: left;
     
   }
+.active {
+ float: left;
+}
+  
  img{
   margin: 40px 0px 0px 0px;
   border: 7px solid black;
