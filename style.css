@@ -1,14 +1,12 @@
-body{ 
 
-  text-align: center;
-  background-color: #CCFFCC;
-  background-position: center;
-  background-size: cover;
-    
-     
-}
-
-ul {
+ body {
+  	text-align: center;
+ 	 background-color: #CCFFCC;
+ 	 background-position: center;
+ 	 background-size: cover;
+     background-border: 8 px solid-white;
+ }
+ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -22,26 +20,15 @@ li a {
   padding: 40px 40px;
   text-decoration: none;
 }
-.menu_li {
-float: left;
+li {
+  float: left;
 }
 
 
 li a:hover {
   background-color: #111;
-}
-ol {
-  background: white;
-  border: 5px solid black;
-  text-align: left;
-    
   }
-.active {
- float: left;
-}
-  
- img{
-  margin: 40px 0px 0px 0px;
-  border: 7px solid black;
-  border-radius: 20px;
+ 
+ img  { 
+ 	border: 8px solid black;
  }
