@@ -22,8 +22,8 @@ li a {
   padding: 40px 40px;
   text-decoration: none;
 }
-menu_li {
-  float: left;
+.menu_li {
+float: left;
 }
 
 
