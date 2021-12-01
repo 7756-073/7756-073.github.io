@@ -28,6 +28,12 @@ li {
 li a:hover {
   background-color: #111;
   }
+.hoi {
+display: block;
+background: white;
+border: 5px solid black;
+text-align: left;
+
  
  img  { 
  	border: 8px solid black;
