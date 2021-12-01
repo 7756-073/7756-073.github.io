@@ -32,3 +32,22 @@ li a:hover {
  img  { 
  	border: 8px solid black;
  }
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  background-color: white;
+  color: black;
+  
+  
+  
+}
+
+td, th {
+  border: 3px solid black;
+  text-align: left;
+  padding: 10px;
+}
+
+tr:nth-child(even) {
+  background-color: white;
+}
