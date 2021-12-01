@@ -1,0 +1,50 @@
+body{ 
+
+	 text-align: center;
+	 background-color: #CCFFCC;
+ 	 background-position: center;
+ 	 background-size: cover;
+    
+     
+}
+.hoi {
+	display: block;
+   background: white;
+    border: 5px solid black;
+    text-align: left;
+    
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+li a {
+  display: inline;
+  color: white;
+  text-align: center;
+  padding: 40px 40px;
+  text-decoration: none;
+}
+.menu_li {
+  float: left;
+}
+
+
+li a:hover {
+  background-color: #111;
+}
+   ol {
+    
+    background: white;
+    border: 5px solid black;
+    text-align: left;
+    
+  }
+ img{
+  margin: 40px 0px 0px 0px;
+  border: 7px solid black;
+  border-radius: 20px;
+ }
